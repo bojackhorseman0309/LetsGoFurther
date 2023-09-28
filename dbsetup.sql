@@ -7,3 +7,5 @@ CREATE EXTENSION IF NOT EXISTS citext;
 psql --host=localhost --dbname=greenlight --username=greenlight
 
 psql $GREENLIGHT_DB_DSN
+
+ALTER DATABASE greenlight OWNER TO greenlight;
